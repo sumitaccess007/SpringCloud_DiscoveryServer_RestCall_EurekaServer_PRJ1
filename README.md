@@ -24,6 +24,24 @@ However in **Cloud Based Microservices Architecture** this approach is nearly in
 <br/>
 
 ## Solutions Provided By Spring Cloud  
+**Spring Cloud** provides **Service Registry and Discovery** features, as usual, with multiple options.
+* Eureka
+* Zookeeper
+* Cloud Foundry 
+* Consul
 
+:memo: This example is implemented with *Eureka Discovery Service*  
 
+</br>
+
+## Project Structure
+Services | Github Links
+| :--- | :---
+Eureka Discovery Server  | https://github.com/sumitaccess007/SpringCloud_DiscoveryServer_RestCall_EurekaServer_PRJ1
+Discovery Client (Doctor Service)  | https://github.com/sumitaccess007/SpringCloud_DiscoveryClient_RestCall_DoctorService_PRJ1
+Discovery Client (Patient Service)  |https://github.com/sumitaccess007/SpringCloud_DiscoveryClient_RestCall_PatientService_PRJ1
+
+</br>
+
+Hi
 
