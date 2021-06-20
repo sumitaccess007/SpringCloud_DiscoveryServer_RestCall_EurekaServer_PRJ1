@@ -1,0 +1,2 @@
+# SpringCloud_DiscoveryServer_RestCall_EurekaServer_PRJ1
+Spring Boot Application explaining Discovery Service Concept with Eureka Client
