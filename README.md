@@ -8,6 +8,22 @@ As in cloud based on the load number of instances of the microservices increases
 
 <br/>
 
-## :thinking: So in this type of scenario How to setup communication between microservices ?  
-🟢 **Solution -**
+## :thinking: So in this type of scenario How to setup communication between microservices dynamically ?  
+🟢 **Solution -** To make this requirement fulfill **Service Discovery** concept is introduced in Spring Cloud.
+
+<br/>
+
+## What is Service Discovery ?
+Service Discovery is the process of one service dynamically discovering the network location (IP Address and Port Number) of another service to communicate with it as in a Distributed System typically comprises a large number of services which communicates with each other to perform certain operations.
+
+:star: In conventional **Service Oriented Architecture (SOA)** we can affort to maintain the network locations of services in configuration files as they are deployed in on-premise data centers and network locations would hardly change or change infrequently.
+However in **Cloud Based Microservices Architecture** this approach is nearly inpossible due to following reasons -  
+:heavy_check_mark: Increased number of services.  
+:heavy_check_mark: Dynamically assigned network locations.
+
+<br/>
+
+## Solutions Provided By Spring Cloud  
+
+
 
